@@ -44,6 +44,7 @@ Enhances rider safety by detecting vehicles or obstacles in the blind spot and p
 ## 🧠 Credits
 
 Originally developed as part of our 2024 senior capstone project 
+https://github.com/dwang312/Blind-Sight
 
 ---
 
