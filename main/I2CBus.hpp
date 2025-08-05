@@ -44,7 +44,7 @@ public:
      * @param length Length of the data buffer
      * @return esp_err_t ESP_OK on success, error code on failure
      */
-    esp_err_t write(uint8_t address, const uint8_t* data, size_t length);
+    esp_err_t writeBytes(uint8_t address, const uint8_t* data, size_t length);
     /**
      * @brief Read data from a specific I2C address
      * 
@@ -53,7 +53,7 @@ public:
      * @param length Length of the data buffer
      * @return esp_err_t ESP_OK on success, error code on failure
      */
-    esp_err_t read(uint8_t address, uint8_t* data, size_t length);
+    esp_err_t readBytes(uint8_t address, uint8_t* data, size_t length);
 
 private:
     /**
